@@ -1,0 +1,183 @@
+body {
+    background-image: url(/Gifs/petals.gif);
+    background-color: pink;
+}
+
+* {
+    margin: 0;
+}
+
+.wordart {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    margin-left: 375px;
+    margin-top: -140px;
+    position: absolute;
+    
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .wordart.purple {
+      transform: skew(0, -10deg) scale(1, 1.5);
+      -webkit-transform: skew(0, -10deg) scale(1, 1.5);
+      -moz-transform: skew(0, -10deg) scale(1, 1.5);
+      -o-transform: skew(0, -10deg) scale(1, 1.5);
+      -ms-transform: skew(0, -10deg) scale(1, 1.5);
+  }
+  
+  .wordart.purple .text {
+      letter-spacing: -0.01em;
+      font-family: Impact;
+      background: #4222be;
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…IgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+      background: -moz-linear-gradient(top, #4222be 0%, #a62cc1 73%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4222be), color-stop(73%, #a62cc1));
+      background: -webkit-linear-gradient(top, #4222be 0%, #a62cc1 73%);
+      background: -o-linear-gradient(top, #4222be 0%, #a62cc1 73%);
+      background: -ms-linear-gradient(top, #4222be 0%, #a62cc1 73%);
+      background: linear-gradient(to bottom, #4222be 0%, #a62cc1 73%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4222be', endColorstr='#a62cc1', GradientType=0);
+      -webkit-text-stroke: 0.01em #B28FFD;
+      filter: progid:DXImageTransform.Microsoft.Glow(Color=#b28ffd, Strength=1);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+.top h2 {
+    text-align: justify;
+    width: 700px;
+    margin-top: 200px;
+    margin-left: 375px;
+    color: rgb(172, 27, 164);
+}
+
+.top img {
+    position: absolute;
+    margin-left: 375px ;
+    margin-top: 30px;
+    width: 700px;
+    height: 450px;
+}
+
+nav#menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(231, 24, 169);
+    background-image: url(/Gifs/snow.gif);
+    border: rgb(219, 176, 248) 10px solid;
+    width: 190px;
+    padding: 20px;
+    
+}
+
+nav#menu h1 {
+    font-size: 28px;
+    padding-top: 55px;
+    color: lawngreen;
+    z-index: 2;
+    font-family: 'Satisfy', cursive;
+}
+
+nav#menu img {
+    height: 70px;
+    padding-top: 90px;
+    z-index: 2;
+    
+}
+
+nav#menu li {
+    padding: 2px;
+    margin: 5px;
+    color: rgb(247, 224, 241);
+    font-family: 'Satisfy', cursive;
+    font-size: 16pt;
+    text-align: center;
+    border: 2px solid rgb(240, 164, 215);
+    align-content: center;
+    
+}
+
+nav#menu a {
+    color: rgb(243, 239, 239);
+    text-decoration: underline;
+}
+
+audio#music {
+	display: block;
+	position: fixed;
+    margin-left: 70px;
+	top: 650px;
+    width: 100px;
+    
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    bottom: 100%;
+    margin-left: 1190px;  
+    width: 250px;    
+}
+
+.side img:nth-of-type(1) {
+    height: 260px;
+    border: rgb(219, 176, 248)7px solid;
+}
+
+.side img:nth-of-type(2) {
+    height: 260px;
+    border: rgb(219, 176, 248)7px solid;
+}
+
+.side img:nth-of-type(3) {
+    height: 260px;
+    border: rgb(219, 176, 248) 7px solid;
+    
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 480px;
+}
+
+.movies h1 {
+    text-align: center;
+    color: rgb(172, 27, 164);
+}
+
+.movies p {
+    text-align: justify;
+    width: 700px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(172, 27, 164);
+}
+
+.movies img {
+    width: 700px;
+    height:300px;
+}
+
+.movies hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 800px;               
+    background-color: rgb(94, 10, 52);
+    height: 6px;
+}

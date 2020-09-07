@@ -1,0 +1,48 @@
+body {
+    background-image: url(/images/tomatoes4.jpg);
+    background-size: cover;
+    background-color: tomato;
+    padding:3em;
+    
+    
+}
+
+img
+{
+    box-shadow: 10px 10px 10px #fff;
+}
+
+img
+{
+-moz-box-shadow: 10 10 10px #fff;
+-webkit-box-shadow: 10 10 5px #fff;
+box-shadow: 0px 0px 10px #fff;
+}
+
+h1 img {
+    width:600px;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 120px;    
+}
+
+.glow {
+    font-size: 40px;
+    color: rgb(126, 79, 235);
+    text-align: center;
+    
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #fff, 0 0 30px #f0e9ec, 0 0 40px #e60073, 0 0 50px #f5eff2, 0 0 60px #e60073, 0 0 70px #ec0d0d;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ec0d0d, 0 0 40px #ec0d0d, 0 0 50px #ec0d0d, 0 0 60px #ec0d0d, 0 0 70px #f3eaea, 0 0 80px #e6dfdf;
+    }
+  }*/
